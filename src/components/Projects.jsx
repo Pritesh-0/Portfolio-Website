@@ -7,10 +7,10 @@ const Projects = () => {
         <div>
           <ul className='list-disc'>
             <li>
-              <a href='https://github.com/Pritesh-0/Task-Scheduler' className='text-[#0a9396] text-2xl hover:text-[#e9d8a6]'>Task Scheduler-Python</a>
+              <a href='https://github.com/Pritesh-0/Task-Scheduler' target="_blank" rel="noopener noreferrer" className='text-[#0a9396] text-2xl hover:text-[#e9d8a6]'>Task Scheduler-Python</a>
             </li>
             <li>
-              <a href='https://github.com/Pritesh-0/CLAP4-MiniProject' className='text-[#0a9396] text-2xl hover:text-[#e9d8a6]'>Notes Management System-C</a>
+              <a href='https://github.com/Pritesh-0/CLAP4-MiniProject' target="_blank" rel="noopener noreferrer" className='text-[#0a9396] text-2xl hover:text-[#e9d8a6]'>Notes Management System-C</a>
             </li>
           </ul>
         </div>

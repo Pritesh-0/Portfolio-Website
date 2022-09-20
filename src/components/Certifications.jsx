@@ -21,7 +21,7 @@ const Certifications = () => {
                 </div>
             </div>
             <p class="leading-loose text-[#005f73] dark:text-gray-200 text-md">
-                <a href="https://www.codechef.com/users/pritesh_a0" className='hover:text-[#e9d8a6] text-xl'>Received 3 Stars on Codechef.</a>
+                <a href="https://www.codechef.com/users/pritesh_a0" target="_blank" rel="noopener noreferrer" className='hover:text-[#e9d8a6] text-xl'>Received 3 Stars on Codechef.</a>
             </p>
         </div>
         <div class="w-full border-b md:w-1/2 lg:w-1/3 lg:border-r p-8">
@@ -35,7 +35,7 @@ const Certifications = () => {
                 </div>
             </div>
             <p class="leading-loose text-[#005f73] dark:text-gray-200 text-md">
-                <a href='https://www.hackerrank.com/RA2111003011551' className='hover:text-[#e9d8a6] text-xl'>Recieved 5 Stars in Python on Hackerrank.</a>
+                <a href='https://www.hackerrank.com/RA2111003011551' target="_blank" rel="noopener noreferrer" className='hover:text-[#e9d8a6] text-xl'>Recieved 5 Stars in Python on Hackerrank.</a>
             </p>
         </div>
         <div class="w-full border-b md:w-1/2 md:border-r lg:w-1/3 lg:border-r-0 p-8">
@@ -49,7 +49,7 @@ const Certifications = () => {
                 </div>
             </div>
             <p class="leading-loose text-[#005f73] dark:text-gray-200 text-md">
-                <a href='https://www.cloudskillsboost.google/public_profiles/ff29adf9-c058-49d2-840c-fc83a50addc9'className='hover:text-[#e9d8a6] text-xl'>Completed 30 Days of Google Cloud Challenge.</a>
+                <a href='https://www.cloudskillsboost.google/public_profiles/ff29adf9-c058-49d2-840c-fc83a50addc9'target="_blank" rel="noopener noreferrer" className='hover:text-[#e9d8a6] text-xl'>Completed 30 Days of Google Cloud Challenge.</a>
             </p>
         </div>
     </div>
