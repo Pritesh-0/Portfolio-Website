@@ -10,7 +10,8 @@ const About = () => {
               <img alt="profil" src={me} class="my-16 object-cover rounded h-40 w-40"/>
             </a>
             <p class='capitalize text-[#0a9396] text-2xl '>
-            hello! my name is pritesh agrawal, i am from indore, currently in my second year of enginnering in cs, i like to code, i enjoy learning new technologies and implementing them. currently i am focused on competitive coding and exploring new things like designing. also, i am obsessed with rickrolls.
+            hello! my name is pritesh agrawal, i am from indore, currently in my second year of enginnering in cs, i like to code, i enjoy learning new technologies and implementing them. currently i am focused on competitive coding and exploring new things like designing. also, i am obsessed with 
+            <a className='px-2 hover:text-[#94d2bd]' href='https://www.youtube.com/watch?v=dQw4w9WgXcQ'>Rickrolls</a>.
             </p>
             
         </div>
