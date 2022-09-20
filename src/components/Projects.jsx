@@ -2,7 +2,7 @@ import React from 'react'
 
 const Projects = () => {
   return (
-    <div id='Projects'className='text-[#94d2bd] max-w-[600px] mt-[10px] w-full mx-auto text-left h-80'>
+    <div id='Projects'className='text-[#94d2bd] max-w-[600px] mt-[64px] w-full mx-auto text-left h-80'>
         <h1 className='text-[#94d2bd] text-4xl'>Projects:</h1>
         <div>
           <ul className='list-disc'>

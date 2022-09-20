@@ -2,7 +2,7 @@ import React from 'react'
 
 const Certifications = () => {
   return (
-<div  id='Achievements' class= "px-6 bg-[#001219] text-[#94d2bd] max-w-[800px] mt-[10px] w-full mx-auto text-left h-screen">
+<div  id='Achievements' class= "px-6 bg-[#001219] text-[#94d2bd] max-w-[800px] mt-[10px] w-full mx-auto text-left h-screen lg:mb-60 md:mt-100">
 <div  class="text-center top-16">
         <p class="pt-64 text-4xl text-[#94d2bd] dark:text-white sm:text-4xl">
             Achievements:
