@@ -3,13 +3,13 @@ import React from 'react'
 const Certifications = () => {
   return (
 <div  id='Achievements' class= "px-6 bg-[#001219] text-[#94d2bd] max-w-[800px] mt-[10px] w-full mx-auto text-left h-screen">
-    
-    <div class="flex flex-wrap my-12 dark:text-white">
-    <div  class="text-center top-16">
+<div  class="text-center top-16">
         <p class="pt-64 text-4xl text-[#94d2bd] dark:text-white sm:text-4xl">
             Achievements:
         </p>
     </div>
+    <div class="flex flex-wrap my-12 dark:text-white">
+
         <div class="w-full border-b md:w-1/2 md:border-r lg:w-1/3 p-8">
             <div class="flex items-center mb-6">
                 <svg width="20" height="20" fill="currentColor" class="h-6 w-6 text-[#e9d8a6]" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
