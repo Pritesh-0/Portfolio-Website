@@ -1,3 +1,5 @@
+Website Deployed at: https://pritesh-0.github.io/Portfolio-Webite/
+
 Screenshots of the Website:
 
 
@@ -9,12 +11,3 @@ Screenshots of the Website:
 ![Screenshot (2454)](https://user-images.githubusercontent.com/72138585/190921025-f79c7795-a2f3-4468-ab71-5fb6c8484887.png)
 ![Screenshot (2455)](https://user-images.githubusercontent.com/72138585/190921026-0d5d1410-ddde-4f8d-b480-92e0676a9bdd.png)
 
-
-On Small Screen Devices:
-
-
-![1](https://user-images.githubusercontent.com/72138585/190921488-b2116134-eaed-4cde-89b0-0a5da9321a94.png)
-![2](https://user-images.githubusercontent.com/72138585/190921490-7fb44af9-d020-4380-bff2-869b30c94de0.png)
-![3](https://user-images.githubusercontent.com/72138585/190921492-14b93af9-9116-4123-ad0f-15800bcc61fc.png)
-![4](https://user-images.githubusercontent.com/72138585/190921496-e2e4bbdc-6b2d-4c43-b125-1fd3fa407380.png)
-![5](https://user-images.githubusercontent.com/72138585/190921498-d800557d-88f3-4861-91f2-4e2fee71d4ae.png)
