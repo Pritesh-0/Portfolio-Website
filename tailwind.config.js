@@ -32,7 +32,9 @@ module.exports = {
       zIndex: ["hover", "active"],
     },
   },
-  plugins: [],
+  plugins: [
+    require('tailwind-scrollbar'),
+  ],
   future: {
     purgeLayersByDefault: true,
   },

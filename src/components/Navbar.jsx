@@ -1,5 +1,6 @@
 import React from 'react'
 import {Link} from 'react-scroll';
+import { motion } from "framer-motion"
 
 const Navbar = () => {
   return (
@@ -8,10 +9,38 @@ const Navbar = () => {
         <div class="max-w-7xl mx-auto px-8">
             <div class="flex items-center justify-between h-16">
                 <div class="w-full justify-between flex lg:items-center sm:flex-row">
-                    <div class="cursor-pointer flex-shrink-0 h-8 w-8 text-[#001219] text-4xl text-mono" ><Link to="hero" spy={true} smooth={true} offset={0} duration={500}>
+                    <motion.div
+                    initial={{
+                        x: -500,
+                        opacity: 0,
+                        scale: 1
+                    }}
+                    animate={{
+                        x: 0,
+                        opacity: 1,
+                        scale: 1
+                    }}
+                    transition={{
+                        duration:1.1
+                    }}
+                    class="cursor-pointer flex-shrink-0 h-8 w-8 text-[#001219] text-4xl text-mono" ><Link to="hero" spy={true} smooth={true} offset={0} duration={500}>
                         P_A0
-                    </Link></div>
-                    <div class="hidden md:block">
+                    </Link></motion.div>
+                    <motion.div
+                    initial={{
+                        x: 500,
+                        opacity: 0,
+                        scale: 1
+                    }}
+                    animate={{
+                        x: 0,
+                        opacity: 1,
+                        scale: 1
+                    }}
+                    transition={{
+                        duration:1.1
+                    }}
+                    class="hidden md:block">
                         <div class="cursor-pointer ml-10 flex items-baseline space-x-4 text-slate-800 text-semibold">
                             <Link to="About" spy={true} smooth={true} offset={0} duration={500}  className=" focus:text-[#94d2bd] hover:text-[#94d2bd] px-3 py-2 rounded-md text-sm font-medium">
                                 About
@@ -26,7 +55,7 @@ const Navbar = () => {
                                 Projects
                             </Link>
                         </div>
-                    </div>
+                    </motion.div>
                 </div>
                 <div class="block">
                     <div class="ml-4 flex items-center md:ml-6">
