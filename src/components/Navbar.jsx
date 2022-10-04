@@ -61,13 +61,25 @@ const Navbar = () => {
                     <div class="ml-4 flex items-center md:ml-6">
                     </div>
                 </div>
-                <div class="-mr-2 flex md:hidden">
-                    
-                </div>
+                
             </div>
         </div>
         <div class="md:hidden">
-            <div class="cursor-pointer px-2 pt-2 pb-3 space-y-1 sm:px-3 text-slate-800">
+            <motion.div
+            initial={{
+                x: -500,
+                opacity: 0,
+                scale: 1
+            }}
+            animate={{
+                x: 0,
+                opacity: 1,
+                scale: 1
+            }}
+            transition={{
+                duration:1.5
+            }}
+            class="cursor-pointer px-2 pt-2 pb-3 space-y-1 sm:px-3 text-slate-800">
                 <Link to="About" spy={true} smooth={true} offset={0} duration={500} className="focus:text-[#94d2bd] hover:text-[#94d2bd] px-3 py-2 rounded-md text-sm font-medium">
                     About
                 </Link>
@@ -80,7 +92,7 @@ const Navbar = () => {
                 <Link to="Projects" spy={true} smooth={true} offset={0} duration={500}  className="  focus:text-[#94d2bd] hover:text-[#94d2bd] px-3 py-2 rounded-md text-sm font-medium" href="/#Projects">
                     Projects
                 </Link>
-            </div>
+            </motion.div>
         </div>
     </nav>
 </div>
