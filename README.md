@@ -1,4 +1,4 @@
-Website Deployed at: https://pritesh-0.github.io/Portfolio-Webite/
+Website Deployed at: https://pritesh-0.github.io/Portfolio-Website/
 
 Screenshots of the Website:
 
